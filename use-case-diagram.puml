@@ -1,0 +1,35 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+skinparam shadowing false
+
+actor "Monitoring System" as Monitoring
+actor "On-Call Engineer" as Engineer
+actor "Incident Commander" as Commander
+actor "Notification Gateway" as Gateway
+
+rectangle "Incident Escalation & On-Call Rotation Engine" {
+  usecase "Process Incident Alert" as UC1
+  usecase "Identify Active\nOn-Call Engineer" as UC2
+  usecase "Dispatch Notifications" as UC3
+  usecase "Escalate\nUnacknowledged Incident" as UC4
+  usecase "Acknowledge Incident" as UC5
+  usecase "Manage Incident" as UC6
+  usecase "Manage On-Call\nRotation" as UC7
+  usecase "Manage Post-Mortem" as UC8
+}
+
+Monitoring --> UC1
+Engineer --> UC5
+Engineer --> UC6
+Commander --> UC6
+Commander --> UC7
+Commander --> UC8
+Gateway --> UC3
+
+UC1 ..> UC2 : <<include>>
+UC1 ..> UC3 : <<include>>
+UC4 ..> UC1 : <<extend>>\n[not acknowledged in 5 min]
+UC4 ..> UC3 : <<include>>
+UC5 ..> UC6 : <<include>>
+@enduml
