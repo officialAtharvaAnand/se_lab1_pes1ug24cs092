@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">UML use-case diagram for the Incident Escalation and On-Call Rotation Engine</title>
+  <desc id="desc">Four actors interact with eight use cases. Process Incident Alert includes identifying the active engineer and dispatching notifications. Escalate Unacknowledged Incident extends processing an alert and includes dispatching notifications.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/></marker>
+    <marker id="openArrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#334155" stroke-width="1.5"/></marker>
+    <style>
+      .boundary{fill:#f8fafc;stroke:#2563eb;stroke-width:2}.case{fill:#fff;stroke:#334155;stroke-width:1.7}.actor,.label{font:16px Arial,sans-serif;fill:#0f172a}.small{font:14px Arial,sans-serif;fill:#334155}.title{font:bold 21px Arial,sans-serif;fill:#1e3a8a}.assoc{stroke:#334155;stroke-width:1.7;fill:none}.dep{stroke:#334155;stroke-width:1.6;stroke-dasharray:8 6;fill:none;marker-end:url(#openArrow)}.person{stroke:#0f172a;stroke-width:2;fill:none}
+    </style>
+  </defs>
+
+  <rect class="boundary" x="245" y="50" width="710" height="660" rx="10"/>
+  <text class="title" x="600" y="83" text-anchor="middle">Incident Escalation &amp; On-Call Rotation Engine</text>
+
+  <g class="person" transform="translate(92 150)"><circle cx="0" cy="0" r="15"/><path d="M0 15V65M-27 34H27M0 65L-24 100M0 65L24 100"/></g>
+  <text class="actor" x="92" y="275" text-anchor="middle">Monitoring System</text>
+  <g class="person" transform="translate(92 405)"><circle cx="0" cy="0" r="15"/><path d="M0 15V65M-27 34H27M0 65L-24 100M0 65L24 100"/></g>
+  <text class="actor" x="92" y="530" text-anchor="middle">On-Call Engineer</text>
+  <g class="person" transform="translate(1090 215)"><circle cx="0" cy="0" r="15"/><path d="M0 15V65M-27 34H27M0 65L-24 100M0 65L24 100"/></g>
+  <text class="actor" x="1090" y="340" text-anchor="middle">Incident Commander</text>
+  <g class="person" transform="translate(1090 510)"><circle cx="0" cy="0" r="15"/><path d="M0 15V65M-27 34H27M0 65L-24 100M0 65L24 100"/></g>
+  <text class="actor" x="1090" y="635" text-anchor="middle">Notification Gateway</text>
+
+  <g><ellipse class="case" cx="440" cy="155" rx="128" ry="42"/><text class="label" x="440" y="161" text-anchor="middle">Process Incident Alert</text></g>
+  <g><ellipse class="case" cx="735" cy="145" rx="142" ry="45"/><text class="label" x="735" y="140" text-anchor="middle"><tspan x="735">Identify Active</tspan><tspan x="735" dy="20">On-Call Engineer</tspan></text></g>
+  <g><ellipse class="case" cx="735" cy="285" rx="132" ry="42"/><text class="label" x="735" y="291" text-anchor="middle">Dispatch Notifications</text></g>
+  <g><ellipse class="case" cx="445" cy="300" rx="145" ry="48"/><text class="label" x="445" y="294" text-anchor="middle"><tspan x="445">Escalate Unacknowledged</tspan><tspan x="445" dy="20">Incident</tspan></text></g>
+  <g><ellipse class="case" cx="430" cy="450" rx="126" ry="42"/><text class="label" x="430" y="456" text-anchor="middle">Acknowledge Incident</text></g>
+  <g><ellipse class="case" cx="720" cy="430" rx="105" ry="42"/><text class="label" x="720" y="436" text-anchor="middle">Manage Incident</text></g>
+  <g><ellipse class="case" cx="470" cy="610" rx="130" ry="45"/><text class="label" x="470" y="604" text-anchor="middle"><tspan x="470">Manage On-Call</tspan><tspan x="470" dy="20">Rotation</tspan></text></g>
+  <g><ellipse class="case" cx="750" cy="605" rx="130" ry="42"/><text class="label" x="750" y="611" text-anchor="middle">Manage Post-Mortem</text></g>
+
+  <path class="assoc" d="M120 170L312 155"/><path class="assoc" d="M120 430L304 448"/><path class="assoc" d="M120 450L615 430"/>
+  <path class="assoc" d="M1063 252L825 416"/><path class="assoc" d="M1063 267L600 599"/><path class="assoc" d="M1063 282L880 588"/><path class="assoc" d="M1063 550L852 303"/>
+
+  <path class="dep" d="M558 139L594 140"/><text class="small" x="575" y="124" text-anchor="middle">«include»</text>
+  <path class="dep" d="M533 184L653 253"/><text class="small" x="603" y="203" text-anchor="middle">«include»</text>
+  <path class="dep" d="M437 251L438 198"/><text class="small" x="362" y="224" text-anchor="middle">«extend»</text><text class="small" x="336" y="242" text-anchor="middle">[no acknowledgement in 5 min]</text>
+  <path class="dep" d="M590 295L603 292"/><text class="small" x="597" y="276" text-anchor="middle">«include»</text>
+  <path class="dep" d="M556 443L614 437"/><text class="small" x="585" y="420" text-anchor="middle">«include»</text>
+</svg>
