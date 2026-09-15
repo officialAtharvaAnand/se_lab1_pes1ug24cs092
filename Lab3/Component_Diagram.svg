@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1190" height="842" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1190 842" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1190" height="842"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-842)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="40" y="801" style="font-family: Helvetica-Bold; font-size: 23px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,1602) scale(1,-1)">Lab 3  Component modelling and architectural selection</text>
+			<text x="40" y="773" style="font-family: Helvetica; font-size: 13px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,1546) scale(1,-1)">Incident Escalation &amp; On-Call Rotation Engine  |  Problem 48  |  Atharva Anand  |  PES1UG24CS092</text>
+			<rect x="40" y="188" width="235" height="553" rx="7" ry="7" style="stroke: rgb(79%,84%,88%); stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="52" y="719" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,1438) scale(1,-1)">PRESENTATION AND INGESTION</text>
+			<rect x="305" y="188" width="565" height="553" rx="7" ry="7" style="stroke: rgb(79%,84%,88%); stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="317" y="719" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,1438) scale(1,-1)">BUSINESS LAYER</text>
+			<rect x="910" y="188" width="240" height="553" rx="7" ry="7" style="stroke: rgb(79%,84%,88%); stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="922" y="719" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,1438) scale(1,-1)">DATA LAYER</text>
+			<rect x="62" y="523" width="190" height="112" rx="5" ry="5" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.3; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="120.58500000000001" y="615" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1230) scale(1,-1)">&lt;&lt;component&gt;&gt;</text>
+			<text x="95.237" y="593" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,1186) scale(1,-1)">Operations Console</text>
+			<text x="106.98" y="572" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1144) scale(1,-1)">Acknowledge / resolve</text>
+			<text x="120.03999999999999" y="556" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1112) scale(1,-1)">Publish rotations</text>
+			<text x="106.985" y="540" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1080) scale(1,-1)">Manage post-mortems</text>
+			<rect x="62" y="305" width="190" height="110" rx="5" ry="5" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.3; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="120.58500000000001" y="395" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,790) scale(1,-1)">&lt;&lt;component&gt;&gt;</text>
+			<text x="129.5505" y="373" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,746) scale(1,-1)">Alert API</text>
+			<text x="112.81" y="352" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,704) scale(1,-1)">Authenticate source</text>
+			<text x="102.245" y="336" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,672) scale(1,-1)">Validate and deduplicate</text>
+			<text x="94.485" y="320" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,640) scale(1,-1)">Monitoring alerts via HTTPS</text>
+			<rect x="335" y="288" width="170" height="365" rx="5" ry="5" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.3; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="383.585" y="633" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1266) scale(1,-1)">&lt;&lt;component&gt;&gt;</text>
+			<text x="356.079" y="611" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,1222) scale(1,-1)">Incident Coordinator</text>
+			<text x="359.7" y="590" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1180) scale(1,-1)">Route and assign (FR-001)</text>
+			<text x="374.155" y="574" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1148) scale(1,-1)">Coordinate (FR-004)</text>
+			<text x="368.04" y="473" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,946) scale(1,-1)">Calls domain interfaces</text>
+			<text x="383.32" y="454" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,908) scale(1,-1)">after role checks</text>
+			<rect x="690" y="568" width="155" height="110" rx="5" ry="5" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.3; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="731.085" y="658" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1316) scale(1,-1)">&lt;&lt;component&gt;&gt;</text>
+			<text x="712.6075" y="636" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,1272) scale(1,-1)">Rotation Manager</text>
+			<text x="712.475" y="615" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1230) scale(1,-1)">Schedules and overrides</text>
+			<text x="750.83" y="599" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1198) scale(1,-1)">FR-003</text>
+			<rect x="690" y="445" width="155" height="100" rx="5" ry="5" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.3; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="731.085" y="525" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1050) scale(1,-1)">&lt;&lt;component&gt;&gt;</text>
+			<text x="710.7875" y="503" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,1006) scale(1,-1)">Escalation Worker</text>
+			<text x="718.595" y="482" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,964) scale(1,-1)">Durable 5-minute jobs</text>
+			<text x="750.83" y="466" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,932) scale(1,-1)">FR-002</text>
+			<rect x="690" y="322" width="155" height="100" rx="5" ry="5" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.3; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="731.085" y="402" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,804) scale(1,-1)">&lt;&lt;component&gt;&gt;</text>
+			<text x="705.386" y="380" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,760) scale(1,-1)">Notification Adapter</text>
+			<text x="715.26" y="359" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,718) scale(1,-1)">Webhook / SMS / email</text>
+			<text x="711.085" y="343" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,686) scale(1,-1)">Retries and deduplication</text>
+			<rect x="690" y="199" width="155" height="100" rx="5" ry="5" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.3; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="731.085" y="279" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,558) scale(1,-1)">&lt;&lt;component&gt;&gt;</text>
+			<text x="699.2435" y="257" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,514) scale(1,-1)">Post-Mortem Manager</text>
+			<text x="718.87" y="236" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,472) scale(1,-1)">Validate closure fields</text>
+			<text x="750.83" y="220" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,440) scale(1,-1)">FR-005</text>
+			<rect x="938" y="315" width="187" height="345" rx="5" ry="5" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.3; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="995.085" y="640" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1280) scale(1,-1)">&lt;&lt;component&gt;&gt;</text>
+			<text x="963.2305" y="618" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,1236) scale(1,-1)">Persistence and Audit</text>
+			<text x="978.15" y="597" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1194) scale(1,-1)">Transactional repository</text>
+			<text x="979.385" y="581" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1162) scale(1,-1)">Incident + rotation state</text>
+			<text x="979.4" y="565" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1130) scale(1,-1)">Timer + delivery outbox</text>
+			<text x="977.46" y="549" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1098) scale(1,-1)">Post-mortems + timeline</text>
+			<text x="984.26" y="533" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1066) scale(1,-1)">Tamper-evident audit</text>
+			<text x="999.82" y="517" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1034) scale(1,-1)">SQL over TLS</text>
+			<text x="996.205" y="501" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1002) scale(1,-1)">AES-256 at rest</text>
+			<circle cx="293.5" cy="585" r="5" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 252,585 L 284.5,585 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 298.5,585 L 335,585 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 293.5 594 C 281.5 594 281.5 576 293.5 576 " style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; fill: none; fill-rule: evenodd;"/>
+			<text x="272.94" y="610" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,1220) scale(1,-1)">IIncident</text>
+			<text x="262.9945" y="561" style="font-family: Helvetica; font-size: 9px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1122) scale(1,-1)">HTTPS / JSON</text>
+			<circle cx="293.5" cy="361" r="5" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 252,361 L 284.5,361 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 298.5,361 L 335,361 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 293.5 370 C 281.5 370 281.5 352 293.5 352 " style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; fill: none; fill-rule: evenodd;"/>
+			<text x="280.72" y="386" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,772) scale(1,-1)">IAlert</text>
+			<text x="269.9875" y="337" style="font-family: Helvetica; font-size: 9px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,674) scale(1,-1)">Internal API</text>
+			<circle cx="597.5" cy="619" r="5" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 505,619 L 588.5,619 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 602.5,619 L 690,619 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 597.5 628 C 585.5 628 585.5 610 597.5 610 " style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; fill: none; fill-rule: evenodd;"/>
+			<text x="575.835" y="644" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,1288) scale(1,-1)">IRotation</text>
+			<text x="557.2295" y="595" style="font-family: Helvetica; font-size: 9px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1190) scale(1,-1)">API: active engineer</text>
+			<circle cx="597.5" cy="496" r="5" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 505,496 L 588.5,496 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 602.5,496 L 690,496 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 597.5 505 C 585.5 505 585.5 487 597.5 487 " style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; fill: none; fill-rule: evenodd;"/>
+			<text x="571.1" y="521" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,1042) scale(1,-1)">IEscalation</text>
+			<text x="552.977" y="472" style="font-family: Helvetica; font-size: 9px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,944) scale(1,-1)">API: schedule / cancel</text>
+			<circle cx="597.5" cy="373" r="5" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 505,373 L 588.5,373 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 602.5,373 L 690,373 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 597.5 382 C 585.5 382 585.5 364 597.5 364 " style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; fill: none; fill-rule: evenodd;"/>
+			<text x="568.61" y="398" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,796) scale(1,-1)">INotification</text>
+			<text x="553.4765" y="349" style="font-family: Helvetica; font-size: 9px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,698) scale(1,-1)">API: enqueue delivery</text>
+			<path d="M 480,288 L 480,250 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 480,250 L 505,250 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<circle cx="597.5" cy="250" r="5" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 505,250 L 588.5,250 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 602.5,250 L 690,250 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 597.5 259 C 585.5 259 585.5 241 597.5 241 " style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; fill: none; fill-rule: evenodd;"/>
+			<text x="567.22" y="275" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,550) scale(1,-1)">IPostMortem</text>
+			<text x="560.9825" y="226" style="font-family: Helvetica; font-size: 9px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,452) scale(1,-1)">API: create / close</text>
+			<circle cx="891.5" cy="620" r="5" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 845,620 L 882.5,620 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 896.5,620 L 938,620 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 891.5 629 C 879.5 629 879.5 611 891.5 611 " style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; fill: none; fill-rule: evenodd;"/>
+			<text x="877.33" y="645" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,1290) scale(1,-1)">IStore</text>
+			<text x="870.4895" y="596" style="font-family: Helvetica; font-size: 9px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1192) scale(1,-1)">SQL / TLS</text>
+			<path d="M 845,495 L 888,495 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; stroke-dasharray: 4, 3;"/>
+			<path d="M 845,372 L 888,372 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; stroke-dasharray: 4, 3;"/>
+			<path d="M 845,249 L 888,249 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; stroke-dasharray: 4, 3;"/>
+			<path d="M 888,249 L 888,585 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; stroke-dasharray: 4, 3;"/>
+			<path d="M 888,585 L 938,585 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; stroke-dasharray: 4, 3;"/>
+			<path d="M 938,585 L 931,589 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 938,585 L 931,581 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<text x="846.53" y="682" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,1364) scale(1,-1)">&lt;&lt;use&gt;&gt; IStore</text>
+			<path d="M 420,288 L 420,180 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; stroke-dasharray: 4, 3;"/>
+			<path d="M 420,180 L 1032,180 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; stroke-dasharray: 4, 3;"/>
+			<path d="M 1032,180 L 1032,315 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4; stroke-dasharray: 4, 3;"/>
+			<path d="M 1032,315 L 1028,308 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 1032,315 L 1036,308 Z" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<text x="590.485" y="165" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,330) scale(1,-1)">&lt;&lt;use&gt;&gt; IStore: atomic state, timer and outbox changes</text>
+			<text x="40" y="132" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,264) scale(1,-1)">NOTATION</text>
+			<circle cx="143" cy="136" r="5" style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="157" y="132" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,264) scale(1,-1)">Provided interface</text>
+			<path d="M 293 145 C 281 145 281 127 293 127 " style="stroke: rgb(14%,36%,51%); stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;"/>
+			<text x="307" y="132" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,264) scale(1,-1)">Required interface</text>
+			<text x="450" y="132" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,264) scale(1,-1)">Solid: assembly / API call    Dashed arrow: usage dependency</text>
+			<text x="40" y="105" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,210) scale(1,-1)">1  Alert -&gt; coordinator -&gt; rotation lookup -&gt; durable notification request; worker sends through external providers over HTTPS.</text>
+			<text x="40" y="84" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,168) scale(1,-1)">2  Acknowledgement updates incident state and cancels escalation atomically. Each timer rechecks state before advancing a tier.</text>
+			<text x="40" y="63" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,126) scale(1,-1)">3  Workers claim durable jobs through IStore; notifications retry with idempotency keys. Console writes pass through the coordinator.</text>
+			<text x="40" y="37" style="font-family: Helvetica; font-size: 10px;fill: rgb(30%,37%,43%); stroke:none;" transform="translate(0,74) scale(1,-1)">Logical components, not separate microservices. App replicas and worker processes share the business code and repository.</text>
+		</g>
+	</g>
+</svg>
