@@ -12,3 +12,10 @@ Software Engineering Lab 1 submission for Problem Statement #48.
 ## System Scope
 
 The system maintains on-call rotations, ingests monitoring alerts, routes notifications through multi-tier escalation ladders, coordinates incident handling, and records post-mortems.
+
+## Lab 3 Architecture and Component Modelling
+
+- [Lab 3 deliverables and design details](Lab3/README.md)
+- [Complete Lab 3 submission PDF](Lab3/Lab3_PES1UG24CS092.pdf)
+- [UML component diagram](Lab3/Component_Diagram.pdf)
+- [One-page architecture justification](Lab3/Architecture_Justification.pdf)
