@@ -1,5 +1,32 @@
 # Defender Repair Lab
 
+## Completed Lab 4 Submission
+
+Student: Atharva Anand (PES1UG24CS092)
+
+The starter was retained and the four required changes were completed in separate commits:
+
+1. Radar blips now use absolute world-space positions.
+2. The sky gradually changes with the wave while remaining readable.
+3. A timed `+500 RESCUE!` popup confirms a successful catch.
+4. An extra life is awarded at every 10,000 points.
+
+Verification: `pytest` reports 4 passing tests. The `evidence` directory contains genuine 10-second recordings rendered by the original and completed Pygame code, plus matching still frames and the PDF report.
+
+```bash
+pip install pygame pytest
+python -m pytest -q
+python game.py
+```
+
+Evidence links:
+
+- [Before video](evidence/before-original-10s.mp4)
+- [After video](evidence/after-completed-10s.mp4)
+- [Prompt evidence](PROMPT_EVIDENCE.md)
+- [Complete shared Codex chat](https://chatgpt.com/s/cx_6ac6855f64e88191b7a0de531e89733e)
+- [PDF report](evidence/PES1UG24CS092_Lab4_Report.pdf)
+
 This project is a single-file Defender-lite clone using **Pygame**. It introduces students to camera wrapping, world-space vs. screen-space coordinates, and multi-stage enemy AI using a small, readable object-oriented codebase.
 
 ---
@@ -75,9 +102,17 @@ Each task must be completed using an iterative process involving LLM suggestions
 ## Folder Structure
 
 ```
-defender/
+Lab-4/
 ├── game.py
-└── README.md
+├── test_game.py
+├── PROMPT_EVIDENCE.md
+├── README.md
+└── evidence/
+    ├── before-original-10s.mp4
+    ├── after-completed-10s.mp4
+    ├── before-original.png
+    ├── after-completed.png
+    └── PES1UG24CS092_Lab4_Report.pdf
 ```
 
 ---
@@ -86,6 +121,6 @@ defender/
 
 Submission is only the following three things:
 
-- [] A 10-second video of gameplay **before** your changes, showing the bug/broken behavior
-- [] A 10-second video of gameplay **after** your changes, showing the bug fixed and the new features working
-- [] The Chat/LLM used page link, with the complete chat history
+- [x] A 10-second video of gameplay **before** the changes, showing the original radar behavior
+- [x] A 10-second video of gameplay **after** the changes, showing the corrected radar and new features
+- [x] Prompt evidence and the complete shared Chat/LLM page URL are included

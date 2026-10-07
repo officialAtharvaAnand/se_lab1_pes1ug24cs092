@@ -19,3 +19,11 @@ The system maintains on-call rotations, ingests monitoring alerts, routes notifi
 - [Complete Lab 3 submission PDF](Lab3/Lab3_PES1UG24CS092.pdf)
 - [UML component diagram](Lab3/Component_Diagram.pdf)
 - [One-page architecture justification](Lab3/Architecture_Justification.pdf)
+
+## Lab 4 Vibe Coding - Defender Repair
+
+- [Completed Lab 4 code and documentation](Lab-4/README.md)
+- [Lab 4 evidence report](Lab-4/evidence/PES1UG24CS092_Lab4_Report.pdf)
+- [Before video](Lab-4/evidence/before-original-10s.mp4)
+- [After video](Lab-4/evidence/after-completed-10s.mp4)
+- [AI prompt evidence](Lab-4/PROMPT_EVIDENCE.md)
