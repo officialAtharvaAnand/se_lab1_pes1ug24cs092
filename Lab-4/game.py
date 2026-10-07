@@ -13,7 +13,10 @@ PHASES = [random.uniform(0, math.tau) for _ in range(3)]
 
 def sky_color(wave):
     """Return an (r, g, b) sky colour for the current wave, or None for the default."""
-    pass
+    # Gradually brighten the blue-purple sky while keeping text and sprites
+    # readable. Capping the progression prevents late waves becoming too bright.
+    level = min(max(int(wave) - 1, 0), 12)
+    return (5 + level * 2, 5 + level, 20 + level * 3)
 
 
 def on_humanoid_rescued(humanoid):
