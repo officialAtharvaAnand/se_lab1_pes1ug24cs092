@@ -24,7 +24,7 @@ Evidence links:
 - [Before video](evidence/before-original-10s.mp4)
 - [After video](evidence/after-completed-10s.mp4)
 - [Prompt evidence](PROMPT_EVIDENCE.md)
-- [Complete shared Codex chat](https://chatgpt.com/s/cx_6ac6855f64e88191b7a0de531e89733e)
+- [Complete shared Codex chat](https://chatgpt.com/s/cx_6ac686f4ed6881918b32d7a8212516b9)
 - [PDF report](evidence/PES1UG24CS092_Lab4_Report.pdf)
 
 This project is a single-file Defender-lite clone using **Pygame**. It introduces students to camera wrapping, world-space vs. screen-space coordinates, and multi-stage enemy AI using a small, readable object-oriented codebase.
