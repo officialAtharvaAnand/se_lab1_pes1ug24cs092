@@ -69,10 +69,15 @@ def main():
     grade_student("Sameer", {0: "5", 3: "list"})
     for name, score in results.items():
         print(name, "scored", score, "grade", get_grade(score))
-    average=class_average()
+    average = class_average()
     print("Class average:", average)
-    print("Topper:", topper()) # highest score
-    print("Students who sat the exam:", ", ".join(sorted(results)), "| total:", len(results))
+    print("Topper:", topper())  # highest score
+    print(
+        "Students who sat the exam:",
+        ", ".join(sorted(results)),
+        "| total:",
+        len(results),
+    )
 
 
 main()
