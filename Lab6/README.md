@@ -4,6 +4,8 @@ Student: Atharva Anand (PES1UG24CS092)
 
 Assigned starter: [SETAPESU26/L6_L7_34_tennis_scoring](https://github.com/SETAPESU26/L6_L7_34_tennis_scoring)
 
+[Download the four-page coverage report (PDF)](Lab6_Coverage_Report_PES1UG24CS092.pdf). It includes the final terminal screenshots, coverage analysis, and complete listings of both maintained Python test files.
+
 The application under test is the assigned `tennis_scoring.py`. Its scoring logic is unchanged. The supplied `test_tennis_scoring.py` is retained for reference.
 
 ## Setup
