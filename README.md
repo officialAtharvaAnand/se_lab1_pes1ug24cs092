@@ -27,3 +27,7 @@ The system maintains on-call rotations, ingests monitoring alerts, routes notifi
 - [Before video](Lab-4/evidence/before-original-10s.mp4)
 - [After video](Lab-4/evidence/after-completed-10s.mp4)
 - [AI prompt evidence](Lab-4/PROMPT_EVIDENCE.md)
+
+## Lab 6 Code and Branch Coverage
+
+- [Tennis scoring tests, coverage analysis, and terminal evidence](Lab6/README.md)
